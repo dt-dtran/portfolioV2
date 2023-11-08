@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color-scheme: dark;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+.orange-text-gradient {
+  background: #f5af19; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f5af19,
+    #f57466
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f5af19,
+    #f57466
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  background: #11998e;
+  background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
+  background: linear-gradient(to top, #11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to top, #2f80ed, #56ccf2);
+  background: linear-gradient(to top, #2f80ed, #56ccf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: #ec008c;
+  background: -webkit-linear-gradient(to top, #ec008c, #fc6767);
+  background: linear-gradient(to top, #ec008c, #fc6767);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-text-gradient {
+  background: #f5f909;
+  background: -webkit-linear-gradient(to top, #f5f909, #e7e958a7);
+  background: linear-gradient(to top, #f5f909, #e7e958a7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-text-gradient {
+  background: #dac3d4;
+  background: -webkit-linear-gradient(to top, #dac3d4, #debbd3);
+  background: linear-gradient(to top, #dac3d4, #debbd3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-text-gradient {
+  background: #39cccc;
+  background: -webkit-linear-gradient(
+    to top,
+    #39cccc,
+    #99c8c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #39cccc, #99c8c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: linear-gradient(
+      45deg,
+      transparent,
+      transparent 40%,
+      rgba(255, 255, 0, 0.711)
+    ),
+    linear-gradient(#262626, #956060);
+  animation: rotate 1.5s linear infinite;
+}
+
+.vertical-timeline.element.vertical-timeline-element-icon::before {
+  background: linear-gradient(
+      45deg,
+      transparent,
+      transparent 40%,
+      rgba(255, 255, 0, 0.711)
+    ),
+    linear-gradient(#262626, #956060);
+  animation: rotate 1.5s linear infinite;
+}
+
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--work
+  .vertical-timeline-element-icon {
+  box-shadow: none;
+}
+
+@keyframes rotate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
