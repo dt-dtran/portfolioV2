@@ -14,12 +14,6 @@ This project is to showcase Diana's Portfolio.
 
 - npm run dev
 
-clear:
-
-- rm -rf node_modules/
-- rm -rf package-lock.json
-- npm cache clean -f
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

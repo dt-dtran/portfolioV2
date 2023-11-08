@@ -123,7 +123,7 @@ function Contact() {
                     value={form.name}
                     onChange={handleChange}
                     placeholder="Name"
-                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc]"
+                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc] bg-[#F6F6F6]"
                   />
                 </label>
                 <label className="flex flex-col">
@@ -137,7 +137,7 @@ function Contact() {
                     value={form.email}
                     onChange={handleChange}
                     placeholder="Email"
-                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc]"
+                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc] bg-[#F6F6F6]"
                   />
                 </label>
                 <label className="flex flex-col">
@@ -150,7 +150,7 @@ function Contact() {
                     value={form.message}
                     onChange={handleChange}
                     placeholder="Message"
-                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc]"
+                    className="bg-tertiary py-2 px-4 placeholder:text-secondary text-grey rounded-lg font-medium focus:outline-none focus:border-[#39cccc] focus:ring-2 focus:ring-[#39cccc] bg-[#F6F6F6]"
                     id="textarea"
                     required
                     type="text"

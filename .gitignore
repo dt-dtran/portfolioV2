@@ -11,6 +11,18 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+
+# production
+/build
+
+#SRC readme
+src/README.md
+
+#Firebase hosting
+.firebaserc
+.firebase/
+
 
 # Editor directories and files
 .vscode/*

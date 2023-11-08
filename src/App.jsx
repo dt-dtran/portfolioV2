@@ -3,7 +3,7 @@ import About from "./components/About";
 import Project from "./components/Projects";
 import NavBar from "./components/Navbar";
 import Tech from "./components/Tech";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Experience from "./components/Experiences";
 import Cert from "./components/Certifications";
@@ -49,12 +49,12 @@ function App() {
           <Element name="testimonials-section">
             <Feedback />
           </Element>
-          {/* <Element name="contact-section">
+          <Element name="contact-section">
             <div className="relative z-0">
               <Contact id="contact-section" />
               <StarsCanvas />
             </div>
-          </Element> */}
+          </Element>
           <Footer />
         </div>
       </BrowserRouter>
