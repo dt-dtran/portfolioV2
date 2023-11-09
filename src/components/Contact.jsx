@@ -1,5 +1,5 @@
 import { styles } from "../style.js";
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import avatar from "../assets/images/Avatar.png";
 import medium from "../assets/images/Avatar500.png";
@@ -36,8 +36,8 @@ function Contact() {
     try {
       emailjs
         .send(
-          process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
+          import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           {
             from_name: form.name,
             to_name: "Diana",
@@ -45,7 +45,7 @@ function Contact() {
             to_email: "dt.dtran.trancodes.com",
             message: form.message,
           },
-          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+          import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY
         )
         .then(
           () => {
