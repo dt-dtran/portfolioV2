@@ -4,12 +4,10 @@ const About = () => {
   return (
     <>
       <div className="pt-10">
-        <p className={`${styles.sectionSubText} text-center `}>Who I Am</p>
-        <h2
-          className={`${styles.sectionHeadText} text-center main-text-gradient`}
-        >
-          About
-        </h2>
+        <p className={`${styles.sectionSubText} text-center `}>
+          About Who I Am
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center `}>Dev + TPM</h2>
       </div>
       <div className="w-full flex justify-center pb-10">
         <p className="mt-3 text-gray-400 text-[20px] max-w-3xl leading-[26px] text-center ml-10 mr-10">

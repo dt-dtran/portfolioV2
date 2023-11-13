@@ -16,7 +16,7 @@ export default function Profile() {
           <img className="h-12 w-12 rounded-full" src={person.image} alt="" />
           <div className="ml-3">
             <p className="text-md font-medium text-gray-300">{person.name}</p>
-            <p className="text-md text-slate-400">{person.role}</p>
+            <p className="text-md header-bg">{person.role}</p>
           </div>
         </li>
       ))}

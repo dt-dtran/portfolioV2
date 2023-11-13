@@ -8,6 +8,7 @@ const ProjectCard = ({
   image,
   video,
   source_code_link,
+  changes,
 }) => {
   return (
     <>
@@ -41,6 +42,20 @@ const ProjectCard = ({
           <p className="mt-2 text-gray-400 text-[20px] text-center">
             {description}
           </p>
+          {changes && (
+            <>
+              <p className="mt-2 text-gray-400 text-[18px] text-left">
+                Upcoming Changes:
+              </p>
+              <ul className="text-gray-400 text-left mt-1 list-disc ml-4 space-y-2">
+                {changes.map((change) => (
+                  <li key={`${name}-${change.name}`} className={`text-[16px]`}>
+                    {change.name}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2 justify-center">

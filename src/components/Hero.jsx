@@ -17,9 +17,9 @@ export default function Hero() {
         </div>
         <div className="mx-auto max-w-2xl pt-24 pb-20 sm:pt-40 sm:pb-32 lg:pt-48 lg:pb-32">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">
-              Full-stack Engineer
-            </h1>
+            <h3 className="text-4xl font-bold tracking-tight sm:text-6xl header-bg-teal p-1">
+              Full-Stack Engineer
+            </h3>
             <p className="mt-6 text-2xl leading-8 text-gray-400">
               Continuously learning developer with interest in exploring new
               technologies and enhancing my abilities. Current areas of
@@ -54,7 +54,7 @@ export default function Hero() {
               </ScrollLink>
             </div>
             <div className="hidden sm:mb-8 sm:flex sm:justify-center mt-10">
-              <div className="relative rounded-full px-3 py-1 text-xl leading-6 text-gray-300 ring-1 ring-gray-400/10 hover:ring-gray-300/20">
+              <div className="relative rounded-full px-3 py-1 text-xl leading-6 header-bg ring-1 ring-gray-400/10 hover:ring-gray-300/20">
                 Open for hiring{" "}
                 <ScrollLink
                   to="projects-section"

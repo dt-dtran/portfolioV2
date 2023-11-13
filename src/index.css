@@ -33,6 +33,48 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.header-bg {
+  filter: contrast(120%) brightness(125%);
+  background-image: linear-gradient(
+    90deg,
+    #5e42fc,
+    #5ba2ff 37%,
+    #5c85fe 67%,
+    #5e42fc
+  );
+  background-clip: text;
+  background-size: 400%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-bg-teal {
+  filter: contrast(120%) brightness(125%);
+  background-image: linear-gradient(
+    90deg,
+    #24eefc,
+    #0d7bd8 33%,
+    #0d7bd8 64%,
+    #24eefc
+  );
+  background-clip: text;
+  background-size: 400%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-bg-pink {
+  filter: contrast(120%) brightness(125%);
+  background-image: linear-gradient(90deg, #654ee5, #f7a2d5 50%, #654ee5);
+  background-clip: text;
+  background-size: 400%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .green-text-gradient {
   background: #11998e;
   background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
@@ -116,5 +158,23 @@ html {
 @keyframes rotate {
   100% {
     filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  100% {
+    background-position: 0%;
+  }
+  0% {
+    background-position: 400%;
+  }
+}
+
+@keyframes animateSm {
+  100% {
+    background-position: 100%;
+  }
+  0% {
+    background-position: -100%;
   }
 }

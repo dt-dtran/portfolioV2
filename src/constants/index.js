@@ -339,6 +339,10 @@ const projects = [
     name: "Portfolio",
     description:
       "Portfolio you are currently viewing. This site is deployed with Firebase and GitHub Actions.",
+    changes: [
+      { name: "Refactor projects to subdomain with Next.js" },
+      { name: "Implement server side database and rending" },
+    ],
     tags: [
       {
         name: "javascript",
@@ -370,12 +374,12 @@ const projects = [
       },
     ],
     image: hexlogo,
-    source_code_link: "https://github.com/dt-dtran/portfolio",
+    source_code_link: "https://github.com/dt-dtran/portfolioV2",
   },
   {
     name: "Chauffoh",
     description:
-      "Web application that allows users to request, view, and cancel rides and drivers to view, claim and complete rides. Chauffoh provides a convenient and efficient solution for transportation needs. See deployed site.",
+      "Web app that allows users to request, view, and cancel rides and drivers to view, claim and complete rides. Chauffoh provides a convenient and efficient solution for transportation needs. See deployed site.",
     tags: [
       {
         name: "javascript",

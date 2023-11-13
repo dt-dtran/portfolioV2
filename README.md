@@ -1,24 +1,44 @@
 # TranCodes Portfolio
 
-This project is to showcase Diana's Portfolio.
+This project is to showcase Diana's Portfolio. Refactored from create-react-app to Vite.
 
 ## Technology Used
 
-- React
+- React + Vite
 - Three.js via react-three drei and react-three fiber
 - TailwindCSS
 - [EmailJS](https://www.emailjs.com/)
 - Hosted by Google Firebase
+- GitHub Actions
 
 ### Available Scripts
 
 - npm run dev
 
-# React + Vite
+# Upcoming Changes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## In progress
 
-Currently, two official plugins are available:
+- Highlight and showcase projects: Move projects into subdomain project.trancodes.com
+- Refactor projects section into Next.js
+  - Implement server side:
+    - server side rendering of components
+    - partial prerendering
+    - DB to add and edit projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backlog
+
+- Add list of dev resources. Include:
+
+  - DB to add and edit resources
+  - Tags (category, timedate)
+  - Sorting
+  - Filtering
+  - Styling
+
+- Add blog component. Include:
+  - DB to add and edit resources
+  - Tags (category, timedate, favorite)
+  - Sort by recent
+  - Search
+  - Styling

@@ -82,7 +82,9 @@ const Experience = () => {
             ))}
           </VerticalTimeline>
           <div className="mb-2 px-3 text-xl text-center">
-            <div className="sub-text-gradient mt-2">Today: Open for Hire</div>
+            <div className="header-bg mt-2">
+              Today: <br></br>Open for Hire
+            </div>
             <div className="text-gray-400">
               I am open to new opportunities in fullstack engineering, frontend
               development, or technical project management roles. <br></br>{" "}

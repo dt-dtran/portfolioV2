@@ -52,12 +52,12 @@ function NavBar() {
                   </svg>
                 </button>
               </div>
-              <div className="hidden lg:flex lg:gap-x-9 pl-3 pr-2">
+              <div className="hidden lg:flex lg:gap-x-5 xl:gap-x-9 pl-2 pr-2">
                 <ScrollLink
                   to="about-section"
                   smooth={true}
                   duration={400}
-                  className="text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
+                  className="text-md xl:text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
                 >
                   About
                 </ScrollLink>
@@ -65,7 +65,7 @@ function NavBar() {
                   to="projects-section"
                   smooth={true}
                   duration={400}
-                  className="text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
+                  className="text-md xl:text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
                 >
                   Projects
                 </ScrollLink>
@@ -73,7 +73,7 @@ function NavBar() {
                   to="experience-section"
                   smooth={true}
                   duration={400}
-                  className="text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
+                  className="text-md xl:text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
                 >
                   Experience
                 </ScrollLink>
@@ -81,7 +81,7 @@ function NavBar() {
                   to="testimonials-section"
                   smooth={true}
                   duration={400}
-                  className="text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
+                  className="text-md xl:text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
                 >
                   Testimonials
                 </ScrollLink>
@@ -89,7 +89,7 @@ function NavBar() {
                   to="contact-section"
                   smooth={true}
                   duration={400}
-                  className="text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
+                  className="text-md xl:text-lg font-semibold leading-6 text-gray-300 cursor-pointer hover:text-[#DAC3D4]"
                 >
                   Contact
                 </ScrollLink>
